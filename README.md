@@ -7,13 +7,13 @@ In this lesson, we'll discuss the concept of statistical distributions, and revi
 
 ## Objectives
 
-You will learn how to:
+You will be able to:
 
 * Understand and explain why statistical distributions are useful to data scientists
 * Identify real-world use cases for problem solving with statistical distributions
 * Review prior knowledge on **_Uniform_**, **_Normal_**, and **_Binomial Distributions_**
 
-### Review: What is a Statistical Distribution?
+## Review: What is a Statistical Distribution?
 
 In this section, we'll be learning about some more advanced statistical distributions, including:
 
@@ -30,18 +30,18 @@ To make learning these distributions easier, it will be helpful to review what w
 
 Although all of these distributions are quite different, in a way, they quite the same in how we use them--these statistical distributions tell us about the distribution of probability of an event or condition given a set of parameters.  Recall that distributions can be either discrete or continuous.  Let's review what those terms mean. 
 
-#### Continuous Distributions
+### Continuous Distributions
 
 The event we're measuring can be any real number.  We can get infinitely more precise if we choose to, and fractions/decimals are okay. A good example of a continuous distribution is height.  A person's height can be a value like 5' 9", or 5' 10", and it can also be literally any number in between those, up the level of precision we choose. 
 
-#### Discrete Distributions
+### Discrete Distributions
 
 Discrete Distributions deal with a series of boolean events or trials.  These events are often called **_Bernoulli Trials_**. Recall that Bernoulli Trials always have a binary outcome, and fractions/decimals are not allowed--there is no such thing as half a trial. A Good example of a discrete distribution is a coin flip.  The coin either lands on heads or it doesn't, and there is no such thing as a half-flipped coin.  Note that we can also represent events with multicategorical outcomes as a discrete distribution,  as long as we determine a single outcome of the event to be a success, and all other possible outcomes as a failure.  For instance, we can describe the event of rolling a six-sided die as a Bernoulli event if we classify rolling a 3 a success, and any other number a failure.  
 
 
 Now, let's quickly review the previous distributions we've already learned about. 
 
-### Review: Uniform Distribution
+## Review: Uniform Distribution
 
 The **_Uniform Distribution_** describes an event where every possible outcome is equally likely.  No single outcome carries any more or less probability of happening than any other possible outcome.  **_The Uniform Distribution can be discrete or continuous_**. 
 
@@ -61,7 +61,7 @@ $$\sqrt{\frac{(b - a)^2}{12}}$$
 
 **_NOTE:_** If you're confused why there is a 12 in the denominator of the formula Standard Deviation for a Uniform Distribution, you're not alone.  The short answer is that it involves calculus. As a data scientist, you don't need to understand the derivation of this formula and where this 12 comes from--however, if you're interested, this [quora answer gives an excellent explanation](https://www.quora.com/Why-is-there-a-12-in-the-variance-of-uniform-distribution)!
 
-### Review: Normal Distribution
+## Review: Normal Distribution
 
 The Normal Distribution is also called a **_Bell Curve_**, and is the distribution that people most often have some familiarity with.  The normal distribution is for continous-valued distributions. 
 
@@ -95,7 +95,7 @@ $e$ is **_Euler's Constant_**, also known as the **_Base of the Natural Logarith
 
 An example question we can answer with the Normal Distribution is "what percentage of people are at least 2 inches shorter than the global average hieght?"
 
-### Review: Binomial Distribution
+## Review: Binomial Distribution
 
 The **_Binomial Distribution_** is the discrete version of the normal distribution.  This distribution describes the probability distribution for a  of a given number of successes in a set of repeated Benoulli Trials, also known as a **_Binomial Experiment_**. Recall that Binomial Experiments have the following constraints:
 
@@ -137,6 +137,6 @@ where $n$ is the number of trials, $p$ is the probability of success for a given
 
 An example question we could answer with the Binomial Distribution is "if I flip a fair coin 5 times, what is the probability that exactly 2 of those flips lands on heads?"
 
-# Conclusion
+## Summary
 
 In this lesson, we reviewed the **_Uniform_**, **_Normal_**, and **_Binomial Distributions_**, as well as what it means to say if a distribution is **_Discrete_** or **_Continuous_**.
