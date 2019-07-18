@@ -16,7 +16,7 @@ You will be able to:
 
 The **Uniform Distribution** describes an event where every possible outcome is equally likely.  No single outcome carries any more or less probability of happening than any other possible outcome.  **The Uniform Distribution can be discrete or continuous**. 
 
-<img src='images/uniform.jpg' width="500">
+<img src='images/new_uniform.png' width="500">
 
 
 ## The Discrete Uniform Distribution
@@ -63,3 +63,8 @@ $$Var(X) = \frac{(b - a)^2}{12}$$
 In this lesson, you learned about the uniform distribution, its applications, and its formulas.
 
 
+
+
+```python
+
+```
