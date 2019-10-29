@@ -45,7 +45,7 @@ An example of a **Continuous Uniform** distributed variable would be the waiting
 **Probability Density Function:**
 
 $$f(x) = \dfrac{1}{(b − a)}\text{ when } a \leq x < b, \text{and} $$ 
-$$f(x) = 0\text{ when }x \notin [a, b[ $$
+$$f(x) = 0\text{ when }x \notin [a, b] $$
 
 **Uniform Distribution Mean:**
 
