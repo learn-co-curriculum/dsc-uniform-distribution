@@ -1,4 +1,3 @@
-
 # The Uniform Distribution
 
 ## Introduction
@@ -36,7 +35,7 @@ $$E(X)= \frac{a + b}{2}$$
 
 **Uniform Distribution Variance**:
 
-$$Var(X) = \sqrt{\frac{(b-a)(b-a+2)}{12}}$$
+$$Var(X) = {\frac{(b-a)(b-a+2)}{12}}$$
 
 
 ## The Continuous Uniform Distribution
