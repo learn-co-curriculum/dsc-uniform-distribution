@@ -20,9 +20,9 @@ The **Uniform Distribution** describes an event where every possible outcome is 
 
 ## The Discrete Uniform Distribution
 
-You've seen an example of a Discrete Uniform Distribution before: rolling a 6-sided die. This idea can be extended to an $n$-sided die. No matter how many sides the die has, with a fair die, you'd be equally likely to roll every side.  
+You've seen an example of a Discrete Uniform Distribution before: rolling a 6-sided dice. This idea can be extended to an $n$-sided dice. No matter how many sides the dice has, with a fair dice, you'd be equally likely to roll every side.  
 
-If $a$ is the smallest number and $b$ is the biggest number that can be observed (for a fair die, $a=1$, $b=6$)
+If $a$ is the smallest number and $b$ is the biggest number that can be observed (for a fair dice, $a=1$, $b=6$)
 
 **Probability Mass Function:**
 
@@ -35,7 +35,7 @@ $$E(X)= \frac{a + b}{2}$$
 
 **Uniform Distribution Variance**:
 
-$$Var(X) = \sqrt{\frac{(b-a)(b-a+2)}{12}}$$
+$$Var(X) = {\frac{(b-a)(b-a+2)}{12}}$$
 
 
 ## The Continuous Uniform Distribution
