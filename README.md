@@ -15,7 +15,7 @@ You will be able to:
 
 The **Uniform Distribution** describes an event where every possible outcome is equally likely.  No single outcome carries any more or less probability of happening than any other possible outcome.  **The Uniform Distribution can be discrete or continuous**. 
 
-<img src='images/new_uniform.png' width="500">
+<img src='https://curriculum-content.s3.amazonaws.com/data-science/images/new_uniform.png' width="500">
 
 
 ## The Discrete Uniform Distribution
